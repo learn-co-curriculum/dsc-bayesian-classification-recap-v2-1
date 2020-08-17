@@ -9,7 +9,7 @@ The key takeaways from this section include:
 - This assumption (that the underlying features are independent) is why Naive Bayes algorithm is considered naive -- because this is almost never true. However, Naives Bayes can prove to be quite efficient 
 - Expanding to multiple features, the multinomial Bayes' formula is:
 
-$$ \Large P(y|x_1, x_2, ..., x_n) = \frac{P(y)\prod_{i}^{n}P(x_i|y)}{P(x_1, x_2, ..., x_n)}$$ 
+    <img src="https://render.githubusercontent.com/render/math?math=\Large P(y|x_1, x_2, ..., x_n) = \frac{P(y)\displaystyle\prod_{i}^{n}P(x_i|y)}{P(x_1, x_2, ..., x_n)}"> 
 
 - Finally, you saw how Naive Bayes algorithm can be used for document classification by classifying YouTube videos into the appropriate topic, and classifying documents as "spam" or "no spam"   
 - Due to insufficient text preprocessing (which you will learn how to do in a later module), the performance of this algorithm was trivial 
